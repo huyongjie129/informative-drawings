@@ -1,0 +1,6 @@
+numpy>=1.24
+scipy>=1.11
+svgpathtools>=1.6
+ortools>=9.7
+elkai>=2.0; platform_system != "Windows"
+pytest>=7.4

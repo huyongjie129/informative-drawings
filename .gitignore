@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+outputs/
+motion_params.json
+.venv/
+venv/
+.DS_Store

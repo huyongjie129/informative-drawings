@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- A clean drawing with only 3 long continuous paths.
+       Optimization should yield small improvement here. -->
+  <path d="M 100 30 Q 60 35 50 80 Q 50 130 100 160 Q 150 130 150 80 Q 140 35 100 30 Z"
+        stroke="black" fill="none"/>
+  <path d="M 65 70 L 75 70 L 75 80 L 65 80 Z" stroke="black" fill="none"/>
+  <path d="M 125 70 L 135 70 L 135 80 L 125 80 Z" stroke="black" fill="none"/>
+</svg>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- A face-like sketch as many disconnected fragments, ordered "badly"
+       (scattered, not nearest-neighbor) — mimics what vtracer might produce. -->
+
+  <!-- Right eye fragments -->
+  <path d="M 130 60 L 140 60" stroke="black" fill="none"/>
+  <path d="M 130 65 L 140 65" stroke="black" fill="none"/>
+  <path d="M 132 62 L 138 62" stroke="black" fill="none"/>
+
+  <!-- Mouth fragment far away -->
+  <path d="M 70 130 L 130 130" stroke="black" fill="none"/>
+
+  <!-- Left eye fragments -->
+  <path d="M 60 60 L 70 60" stroke="black" fill="none"/>
+  <path d="M 60 65 L 70 65" stroke="black" fill="none"/>
+  <path d="M 62 62 L 68 62" stroke="black" fill="none"/>
+
+  <!-- Right cheek dot -->
+  <path d="M 145 95 L 150 95" stroke="black" fill="none"/>
+
+  <!-- Hair strands scattered, alternating sides -->
+  <path d="M 50 30 L 55 25" stroke="black" fill="none"/>
+  <path d="M 150 30 L 145 25" stroke="black" fill="none"/>
+  <path d="M 60 25 L 65 20" stroke="black" fill="none"/>
+  <path d="M 140 25 L 135 20" stroke="black" fill="none"/>
+  <path d="M 70 22 L 75 18" stroke="black" fill="none"/>
+  <path d="M 130 22 L 125 18" stroke="black" fill="none"/>
+
+  <!-- Left cheek dot -->
+  <path d="M 55 95 L 60 95" stroke="black" fill="none"/>
+
+  <!-- Nose (interleaved with hair) -->
+  <path d="M 100 80 L 100 100" stroke="black" fill="none"/>
+  <path d="M 95 100 L 105 100" stroke="black" fill="none"/>
+
+  <!-- Face outline as a chain of disconnected arcs (poor!) -->
+  <path d="M 100 30 Q 60 35 50 80" stroke="black" fill="none"/>
+  <path d="M 50 80 Q 50 130 100 160" stroke="black" fill="none"/>
+  <path d="M 100 160 Q 150 130 150 80" stroke="black" fill="none"/>
+  <path d="M 150 80 Q 140 35 100 30" stroke="black" fill="none"/>
+</svg>
